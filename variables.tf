@@ -16,7 +16,7 @@ EOT
     name                    = string
     resource_group_name     = string
     description             = optional(string)
-    encrypted               = optional(bool, false)
+    encrypted               = optional(bool) # Default: false
     value                   = optional(string)
   }))
 }
